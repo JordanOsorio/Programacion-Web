@@ -1,5 +1,5 @@
 .menu {
-    background-color: rgb(26, 24, 24);
+    background-color: rgb(17, 16, 16);
     color: white;
 }
 
@@ -25,7 +25,7 @@
 
 
 .fondo {
-    background-color: rgb(10, 34, 34);
+    background-color: rgb(16, 51, 51);
     color: white;
 }
 
@@ -66,9 +66,9 @@ a {
 .TextoLetras {
         text-align: justify;
         margin: 0 auto; /* Centrar el texto horizontalmente */
-        max-width: 1000px; /* Establecer el ancho máximo del contenedor */
+        max-width: 1150px; /* Establecer el ancho máximo del contenedor */
         padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
-        background-color: #070303; /* Agregar un color de fondo para destacar el texto */
+        background-color: #524f4f; /* Agregar un color de fondo para destacar el texto */
         border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
         box-shadow: 0 0 10px rgba(23, 24, 26, 0.1); /* Agregar una sombra para resaltar el contenedor */
         font-size: 20px;
@@ -77,4 +77,26 @@ a {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
+}
+.Photo img {
+    width: 500px; /* Establecer el ancho en 50 píxeles */
+    height: auto; /* Ajustar la altura automáticamente */
+    vertical-align: left; /* Alinear verticalmente la imagen con el texto */
+    margin-left: 250px;
+}
+
+.text {
+    text-align: justify;
+    margin: 0 auto; /* Centrar el texto horizontalmente */
+    max-width: 350; /* Establecer el ancho máximo del contenedor */
+    padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
+    background-color: rgb(64, 88, 88); /* Agregar un color de fondo para destacar el texto */
+    border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgba(230, 231, 233, 0.1); /* Agregar una sombra para resaltar el contenedor */
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container {
+    display: flex;
 }
