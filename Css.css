@@ -83,12 +83,12 @@ a {
     height: auto; /* Ajustar la altura automáticamente */
     vertical-align: left; /* Alinear verticalmente la imagen con el texto */
     margin-left: 250px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
 }
 
 .text {
     text-align: justify;
     margin: 0 auto; /* Centrar el texto horizontalmente */
-    max-width: 350; /* Establecer el ancho máximo del contenedor */
     padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
     background-color: rgb(64, 88, 88); /* Agregar un color de fondo para destacar el texto */
     border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
@@ -99,4 +99,24 @@ a {
 }
 .container {
     display: flex;
+}
+.margenPerroGato{
+    margin-left: 110px;
+    margin-right: 110px;
+    vertical-align: middle;
+}
+
+.ButonAnimal{
+    text-align: justify;
+    margin: 0 auto; /* Centrar el texto horizontalmente */
+    max-width: 350; /* Establecer el ancho máximo del contenedor */
+    padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
+    background-color: rgb(64, 88, 88); /* Agregar un color de fondo para destacar el texto */
+    border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Agregar una sombra para resaltar el contenedor */
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
