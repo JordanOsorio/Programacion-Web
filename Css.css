@@ -16,6 +16,7 @@
     text-align: left;
     color:white;
     padding-left : 450px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .iconosLetras {
     text-align: left;
@@ -69,26 +70,32 @@ a {
         max-width: 1150px; /* Establecer el ancho máximo del contenedor */
         padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
         background-color: #524f4f; /* Agregar un color de fondo para destacar el texto */
-        border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
-        box-shadow: 0 0 10px rgba(23, 24, 26, 0.1); /* Agregar una sombra para resaltar el contenedor */
-        font-size: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(23, 24, 26, 0.1); 
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
 }
 .footer {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 .Photo img {
     width: 500px; /* Establecer el ancho en 50 píxeles */
     height: auto; /* Ajustar la altura automáticamente */
     vertical-align: left; /* Alinear verticalmente la imagen con el texto */
     margin-left: 250px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 0 10px rgba(234, 238, 245, 0.979);
+    
 }
 
 .text {
+
     text-align: justify;
     margin: 0 auto; /* Centrar el texto horizontalmente */
+    max-width: 350; /* Establecer el ancho máximo del contenedor */
     padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
     background-color: rgb(64, 88, 88); /* Agregar un color de fondo para destacar el texto */
     border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
@@ -109,14 +116,23 @@ a {
 .ButonAnimal{
     text-align: justify;
     margin: 0 auto; /* Centrar el texto horizontalmente */
-    max-width: 350; /* Establecer el ancho máximo del contenedor */
+    max-width: 100; /* Establecer el ancho máximo del contenedor */
     padding: 20px; /* Añadir espaciado interno para mejorar la legibilidad */
     background-color: rgb(64, 88, 88); /* Agregar un color de fondo para destacar el texto */
-    border-radius: 10px; /* Agregar bordes redondeados para un aspecto más suave */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Agregar una sombra para resaltar el contenedor */
+    border-radius: 50px; /* Agregar bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgb(241, 235, 235); /* Agregar una sombra para resaltar el contenedor */
     font-size: 20px;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 140px;
     margin-bottom: 140px;
+}
+.FondoImagen p{
+    text-align: center;
+    color:rgb(247, 244, 244);
+}
+.FondoImagen{
+    background-image:url(Imagenes/FondoAnimales.png);
+    opacity: 0.25;
+    overflow:hidden;
 }
